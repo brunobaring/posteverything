@@ -1,0 +1,4 @@
+- mudar a cor da status bar
+- form validation nos campos do post antes de enviar
+- o botao heart precisa ser animado, e precisa simular request no mainservice.
+- fazer callbacks do logout
