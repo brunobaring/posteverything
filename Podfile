@@ -12,6 +12,9 @@ target 'RioFatos' do
     pod 'Firebase/Auth'
     pod 'Firebase/Storage'
     pod 'IQKeyboardManagerSwift'
+    pod 'PullToRefresher', '~> 2.0'
+    pod 'Kingfisher', '~> 3.2'
+
   # Pods for RioFatos
 
   target 'RioFatosTests' do

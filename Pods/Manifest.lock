@@ -14,13 +14,13 @@ PODS:
   - FirebaseAnalytics (3.9.0):
     - FirebaseCore (~> 3.6)
     - FirebaseInstanceID (~> 1.0)
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseAuth (3.1.1):
     - FirebaseAnalytics (~> 3.7)
-    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
     - GTMSessionFetcher/Core (~> 1.1)
   - FirebaseCore (3.6.0):
-    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
   - FirebaseDatabase (3.1.2):
     - FirebaseAnalytics (~> 3.7)
   - FirebaseInstanceID (1.0.10):
@@ -31,17 +31,19 @@ PODS:
   - GoogleToolboxForMac/DebugUtils (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
   - GoogleToolboxForMac/Defines (2.1.1)
-  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
     - GoogleToolboxForMac/Defines (= 2.1.1)
-  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1)":
     - GoogleToolboxForMac/DebugUtils (= 2.1.1)
     - GoogleToolboxForMac/Defines (= 2.1.1)
-    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
-  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.1)"
   - GTMSessionFetcher/Core (1.1.9)
   - ImagePicker (2.1.1)
   - ImageSlideShowSwift (0.1.0)
   - IQKeyboardManagerSwift (4.0.9)
+  - Kingfisher (3.7.1)
+  - PullToRefresher (2.0.2)
 
 DEPENDENCIES:
   - Firebase/Auth
@@ -51,6 +53,25 @@ DEPENDENCIES:
   - ImagePicker
   - ImageSlideShowSwift
   - IQKeyboardManagerSwift
+  - Kingfisher (~> 3.2)
+  - PullToRefresher (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseStorage
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - ImagePicker
+    - ImageSlideShowSwift
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - PullToRefresher
 
 SPEC CHECKSUMS:
   Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
@@ -65,7 +86,9 @@ SPEC CHECKSUMS:
   ImagePicker: fe4c699abb56ff03994fa98d8b02e3883ee118be
   ImageSlideShowSwift: 741ecd3b9c532619fb6576a3912f8dd92e61972a
   IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  Kingfisher: c09cece8e201b6abd7b6866ea26f73b2379208d2
+  PullToRefresher: 5e101a8c3523e67ee0291375ba932ef59e0853c2
 
-PODFILE CHECKSUM: 740ea493816d47791f1429eca4d6ea116a0ee359
+PODFILE CHECKSUM: e4ca7b2de750e9550e8474955074d981b6dc27a2
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.2
