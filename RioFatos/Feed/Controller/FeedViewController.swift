@@ -70,14 +70,21 @@ class FeedViewController: UICollectionViewController
         }
     }
 
-    func getFeedContent(at position: Position?, completion: @escaping (RequestError.Feed.ErrorType?) -> Void)
-    {
+    func getFeedContent(at position: Position?, completion: @escaping (RequestError.Feed.ErrorType?) -> Void) {
         self.feedPresenter.getFeedContent(at: position) { error in
             guard error == nil else {
                 completion(error)
                 return
             }
             self.feedCollectionView.reloadData()
+            switch position {
+            case .top?:
+                self.feedCollectionView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+            case .bottom?:
+                self.feedCollectionView.setContentOffset(CGPoint(x: 0, y: self.feedCollectionView.contentSize.height - self.feedCollectionView.bounds.size.height), animated: true)
+            case .none:
+                break
+            }
             completion(error)
             return
         }

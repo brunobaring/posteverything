@@ -280,9 +280,10 @@
 				2E2C629121377F1100AA9A66 /* Shared */,
 				2EF3FC902137719A006D62EA /* Comment */,
 				2E2A27ED1EFEB66E0065F86B /* Assets.xcassets */,
-				2E2C62C72137834600AA9A66 /* Plists */,
 				2E2C62C62137832600AA9A66 /* Fonts */,
 				2E2A27EA1EFEB66E0065F86B /* RioFatos.xcdatamodeld */,
+				2EC3A1381F5506A200471A4F /* GoogleService-Info.plist */,
+				2E2A27F21EFEB66E0065F86B /* Info.plist */,
 			);
 			path = RioFatos;
 			sourceTree = "<group>";
@@ -736,15 +737,6 @@
 				2EB023811EFEC13900FE83C6 /* SF-UI-Text-Light.otf */,
 			);
 			path = Fonts;
-			sourceTree = "<group>";
-		};
-		2E2C62C72137834600AA9A66 /* Plists */ = {
-			isa = PBXGroup;
-			children = (
-				2EC3A1381F5506A200471A4F /* GoogleService-Info.plist */,
-				2E2A27F21EFEB66E0065F86B /* Info.plist */,
-			);
-			path = Plists;
 			sourceTree = "<group>";
 		};
 		2EF3FC902137719A006D62EA /* Comment */ = {
